@@ -1,3 +1,7 @@
+Disclaimer: Much of the code was published by https://github.com/EvilPort2
+Code cleanups and production code verification was accomplished by me.
+Information below was gathered from the same source of the source-code used for this project
+
 [![DOI](https://zenodo.org/badge/122105084.svg)](https://zenodo.org/badge/latestdoi/122105084)
 
 # Sign-Language
@@ -109,10 +113,10 @@ This is why I ended up using Keras' model, as the loading the model into memory 
   * After you get a good histogram press 's' to save the histogram. All the windows close.
   2. For recognition start the recognize_gesture.py file.
 
-    python recognize_gesture.py
+    python gesture_recognition.py
 3. You will have a small green box inside which you need to do your gestures.
 
-### Using fun_util.py
+### Using word_prediction.py
 Here is where you will have all the fun. 
   1. First set your hand histogram. You do not need to do it again if you have already done it. But you do need to do it if the lighting conditions change. To do so type the command given below and follow the instructions below.
     
@@ -128,7 +132,7 @@ Here is where you will have all the fun.
   
   2. Start the file.
   
-    python fun_util.py
+    python word_prediction.py
 
 #### Text Mode (Press 't' to go to text mode)
 1. In text mode you can create your own words using fingerspellings or use the predefined gestures.
